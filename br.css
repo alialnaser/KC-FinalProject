@@ -1,9 +1,7 @@
-body {
-    background-color: rebeccapurple;
-    margin: 0%;
+body{
+    background-color: red;
+    margin: 0px;
 }
-
-
 
 #headerdiv{
     background-color:darkblue;
@@ -18,20 +16,7 @@ body {
   flex-direction: column;
 }
 
-#icon{
-    width: 80px;
-    height: 80px;
-}
-
-.rightheader{
-    display: flex;
-    justify-content:right;
-    align-items: flex-end;
-    text-align: right;
-    color:red ;
-}
-
-.genrediv{
+.topdiv{
     height: 500px;
     border: 5px black ridge;
     margin-top: 50px;
@@ -44,41 +29,21 @@ body {
     border-bottom: 0px;
 }
 
-button{
-    color: red;
-    display: inline-block;
+.middiv{
+    height: 500px;
+    border: 5px black ridge;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    align-items:center;
+    border-bottom: 0px;
+    border-top: 0px;
 }
 
-
-
-
-
-footer{
-    background-color:darkblue;
-    height: 200px;
-    padding: 20px;
-  color: white;
-  font-size: 25px;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
-  border: 5px black solid;
-  flex-direction: column;
-        
-}
-
-/* .genrecard{
-    height: 400px;
-    width: 245px;
-    background-color: chartreuse;
-    border: 3px black solid;
-    border-radius: 10%;
-    
-
-} */
-
-.seemorediv{
-    height: 75px;
+.botdiv{
+    height: 500px;
     border: 5px black ridge;
     margin-left: 50px;
     margin-right: 50px;
@@ -87,7 +52,6 @@ footer{
     flex-wrap:wrap;
     align-items:center;
     border-top: 0px;
-    margin-top: 0px;
 }
 
 .img{
@@ -101,7 +65,6 @@ footer{
 }
 
 button{
-    background-color: rebeccapurple;
+    background-color: red;
     border: 0px;
-    
 }
