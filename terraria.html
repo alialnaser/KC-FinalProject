@@ -4,17 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terraria Page</title>
+    <title>Terraria</title>
     <link rel="stylesheet" href="./terraria.css">
     <link rel="shortcut icon" href="./icon honey comb.png">
 </head>
 
+
 <body>
-    
-<h1>Terraria Page</h1>
+    <header >
+
+        <div>
+            <h2>5 ⭐</h2> <button id="5star" class="rate" onclick="star5()" ondblclick="keypress()"></button>
+            <h2>4 ⭐</h2> <button id="4star" class="rate" onclick="star4()" ondblclick="keypress()"></button>
+            <h2>3 ⭐</h2> <button id="3star" class="rate" onclick="star3()" ondblclick="keypress()"></button>
+            <h2>2 ⭐</h2> <button id="2star" class="rate" onclick="star2()" ondblclick="keypress()"></button>
+            <h2>1 ⭐</h2> <button id="1star" class="rate" onclick="star1()" ondblclick="keypress()"></button>
+            
+            </div>
 
 
-    <script src="./terraria.js"></script>
+<img src="./pics/mc poster.webp" alt="MineCraft Poster" srcset="" width="400">
+
+ 
+<div id="header-review">
+    <a href="./survival.html" style="color:gold ; text-decoration: none;">Back To Genre Page</a>
+    <br>
+    <br>
+
+    <a href="./page1.html" style="color:gold ; text-decoration: none;">Back To Main Page</a>
+<h2>5/5 Common Sense Media</h2>
+<h2>4.5/5 IGN</h2>
+<h2>4.7/5 Influenster</h2>
+<button id="like" onclick="like()" ondblclick="keypresslike()">Like</button>
+<button id="dislike" onclick="dislike()" ondblclick="keypresslike()">Dislike</button>
+
+</div>
+
+
+
+    </header>
+
+
+    <div id="middiv">
+
+<!-- <input type="text" id="reviewinput"><button id="reviewinput">submit</button> -->
+
+<h1>Reviews</h1>
+
+<input type="text" id="submit">
+
+<button type="button" id="btn">Add</button>
+
+<ul id="itemList">
+
+<li>such a good game lets your kids play this game like its so so good its like 20 or more dollars such a fun game i been playing it for a long time -Jason ⭐⭐⭐⭐⭐</li>
+
+<li>Not perfect, But one of the best games I have ever played -Mike ⭐⭐⭐⭐</li>
+
+
+
+</ul>
+
+
+    </div>
+
+
+
+<div id="viddiv">
+
+
+<div id="webdiv"><a href="https://minecraft.net/" style="color:gold ; text-decoration: none; font-size: 30px;">Game Website</a></div>
+
+
+<br>
+
+<h2>Game Trailer</h2>
+
+    <iframe width="420" height="315"
+src="https://www.youtube.com/embed/GsTexhywMjM?autoplay=1&mute=1">
+</iframe>
+
+</div>
+
+    <script src="./Terraria.js"></script>
 </body>
 
+
 </html>
+

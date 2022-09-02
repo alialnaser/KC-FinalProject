@@ -1,3 +1,74 @@
 body{
-    background-color: indigo;
+    background-color: brown;
+    margin: 0%;
+}
+
+header{
+    width: 100%;
+    height: 700px;
+    background-color: purple;
+    border: 3px solid black;
+    display: flex;
+    align-items:center;
+justify-content: space-evenly;
+}
+
+
+.rate{
+  height: 25px;
+  width: 60px;
+}
+
+#like{
+  width: 100px;
+  height: 30px;
+}
+
+#dislike{
+  width: 100px;
+  height: 30px;
+}
+
+button{
+  border: black 2px solid;
+}
+
+
+#middiv{
+width: 100%;
+height: 600px;
+border: black 4px solid;
+margin: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#submit{
+  height: 80px;
+  width: 250px;
+}
+
+#btn{
+  height: 45px;
+  width: 258px;
+}
+
+li{
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+}
+
+#viddiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#webdiv{
+  border: 2px black solid;
+  padding: 5px;
 }
