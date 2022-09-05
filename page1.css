@@ -1,5 +1,5 @@
 body {
-    background-color: #3D2B56;
+    background-color: #5AB9EA;
     margin: 0%;
     font-family: 'Courier New', monospace;
     
@@ -8,10 +8,10 @@ body {
 
 
 #headerdiv{
-    background-color: #2C497F;
+    background-color: #8860D0;
     height: 200px;
     padding: 20px;
-  color: #B4C5E4;
+  color: #EDF5E1;
   font-size: 25px;
   display: flex;
   justify-content: space-around;
@@ -45,11 +45,11 @@ body {
     flex-wrap:wrap;
     align-items:center;
     border-bottom: 0px;
-    background-color: #5F4B66;
+    background-color: #84CEEB;
 }
 
 button{
-    color: #54b3d6;
+    color: #5CDB95;
     display: inline-block;
 }
 
@@ -58,7 +58,7 @@ button{
 
 
 footer{
-    background-color: #2C497F;
+    background-color: #8860D0;
     height: 200px;
     padding: 20px;
   color: white;
@@ -92,7 +92,7 @@ footer{
     align-items:center;
     border-top: 0px;
     margin-top: 0px;
-    background-color: #5F4B66;
+    background-color: #84CEEB;
 }
 
 
@@ -115,7 +115,7 @@ footer{
 }
 
 button{
-    background-color: #5F4B66;
+    background-color: #84CEEB;
     border: 0px;
     
 }
@@ -130,7 +130,8 @@ button{
     width: 300px;
     display: flex;
     justify-content:center;
-background-color: #3D3D73;    
+background-color: #5680E9;    
+color: #EDF5E1;
 }
 
 .jump{
