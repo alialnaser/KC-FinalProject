@@ -1,10 +1,11 @@
 body{
-    background-color: red;
-    margin: 0px;
+    background-color: #3D2B56;
+    margin: 0%;
+    font-family: 'Courier New', monospace;
 }
 
 #headerdiv{
-    background-color:darkblue;
+    background-color:#2C497F;
     height: 200px;
     padding: 20px;
   color: white;
@@ -12,13 +13,13 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 5px black solid;
+  border: 5px black  double;
   flex-direction: column;
 }
 
 .topdiv{
     height: 500px;
-    border: 5px black ridge;
+    border: 5px black  double;
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
@@ -27,11 +28,12 @@ body{
     flex-wrap:wrap;
     align-items:center;
     border-bottom: 0px;
+    background-color: #5F4B66;
 }
 
 .middiv{
     height: 500px;
-    border: 5px black ridge;
+    border: 5px black  double;
     margin-left: 50px;
     margin-right: 50px;
     display: flex;
@@ -40,11 +42,12 @@ body{
     align-items:center;
     border-bottom: 0px;
     border-top: 0px;
+    background-color: #5F4B66;
 }
 
 .botdiv{
     height: 500px;
-    border: 5px black ridge;
+    border: 5px black  double;
     margin-left: 50px;
     margin-right: 50px;
     display: flex;
@@ -52,6 +55,7 @@ body{
     flex-wrap:wrap;
     align-items:center;
     border-top: 0px;
+    background-color: #5F4B66;
 }
 
 .img{
@@ -65,6 +69,6 @@ body{
 }
 
 button{
-    background-color: red;
+    background-color: #5F4B66;
     border: 0px;
 }

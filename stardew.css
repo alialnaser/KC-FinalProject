@@ -1,27 +1,31 @@
 body{
-  background-color: brown;
+  background-color: #3D2B56;
   margin: 0%;
+  font-family: 'Courier New', monospace;
 }
 
 header{
   width: 100%;
   height: 700px;
-  background-color: purple;
-  border: 3px solid black;
+  background-color: #2C497F;
+  border: 5px black  double;
   display: flex;
   align-items:center;
-justify-content: space-evenly;
+justify-content: space-around;
+color: #ffffff;
 }
 
 
 .rate{
-height: 25px;
-width: 60px;
+height: 30px;
+width: 30px;
+border-radius: 50%;
 }
 
 #like{
 width: 100px;
 height: 30px;
+
 }
 
 #dislike{
@@ -30,19 +34,24 @@ height: 30px;
 }
 
 button{
-border: black 2px solid;
+border: 2px black  double;
 }
 
 
 #middiv{
-width: 100%;
-height: 600px;
-border: black 4px solid;
+width: 1700px;
+height: 800px;
+border: 5px black  double;
 margin: 50px;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content:flex-start;
 align-items: center;
+margin: auto;
+margin-top: 100px;
+margin-bottom: 100px;
+background-color: #5F4B66;
+padding-top: 75px;
 }
 
 #submit{
@@ -59,6 +68,7 @@ li{
 text-align: center;
 margin: 20px;
 font-weight: bold;
+font-size: 16.5px;
 }
 
 #viddiv{
@@ -71,5 +81,23 @@ justify-content: space-evenly;
 #webdiv{
 border: 2px black solid;
 padding: 5px;
+}
+
+#ratediv{
+border: black solid 2px;
+ padding: 25px;
+ text-align: center;
+}
+
+#rightdiv{
+border: black solid 2px;
+ padding: 15px;
+ text-align: center;
+}
+
+#header-review{
+border: black solid 2px; 
+padding: 25px;
+text-align: center;
 }
 
