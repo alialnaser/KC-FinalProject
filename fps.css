@@ -1,11 +1,11 @@
 body{
-    background-color: #3D2B56;
+    background-color: #5AB9EA;
     margin: 0%;
     font-family: 'Courier New', monospace;
 }
 
 #headerdiv{
-    background-color:#2C497F;
+    background-color:#8860D0;
     height: 200px;
     padding: 20px;
   color: white;
@@ -28,7 +28,7 @@ body{
     flex-wrap:wrap;
     align-items:center;
     border-bottom: 0px;
-    background-color: #5F4B66;
+    background-color: #84CEEB;
 }
 
 .middiv{
@@ -42,7 +42,7 @@ body{
     align-items:center;
     border-bottom: 0px;
     border-top: 0px;
-    background-color: #5F4B66;
+    background-color: #84CEEB;
 }
 
 .botdiv{
@@ -55,7 +55,7 @@ body{
     flex-wrap:wrap;
     align-items:center;
     border-top: 0px;
-    background-color: #5F4B66;
+    background-color: #84CEEB;
 }
 
 .img{
@@ -69,6 +69,6 @@ body{
 }
 
 button{
-    background-color: #5F4B66;
+    background-color: #84CEEB;
     border: 0px;
 }
